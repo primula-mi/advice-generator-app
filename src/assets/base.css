@@ -1,0 +1,41 @@
+/* color palette from <https://github.com/vuejs/theme> */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap');
+:root {
+
+  /* Color */
+  --blue-100: hsl(193, 38%, 86%);
+  --blue-700: hsl(217, 19%, 38%);
+  --blue-800: hsl(217, 19%, 24%);
+  --blue-900: hsl(218, 23%, 16%);
+  --green-100: hsl(150, 100%, 66%);
+  
+  /* Typography */
+  --family: "Manrope", Arial, sans-serif;
+  --fs-base: 21px;
+  --fw-regular: 400;
+  --fw-semi-bold: 600;
+  --fw-extra-bold: 800;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--blue-100);
+  background: var(--blue-900);
+  font-family: var(--family);
+}
+@media (min-width: 1024px) {
+
+}
